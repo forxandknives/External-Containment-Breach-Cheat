@@ -11,3 +11,5 @@ The cheat menu may give you an error sometimes when you close the game, just res
 Look in the top right corner of the cheat to see if it is connected to the game or not.
 
 This cheat uses VAMemory.dll to read and write memory.
+
+When you compile the program, if it complains about VAMemory.dll missing or whatever, look at the right side of visual studio. Right click on "References" and hit add reference. Hit browse on the left side and then browse again at the bottom. Find VAMemory.dll which is included in this cheat and add it. Then compile.
